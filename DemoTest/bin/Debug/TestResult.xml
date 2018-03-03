@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<test-run id="2" testcasecount="6" result="Failed" total="6" passed="2" failed="3" inconclusive="0" skipped="1" asserts="4" engine-version="3.8.0.0" clr-version="4.0.30319.42000" start-time="2018-02-18 15:29:22Z" end-time="2018-02-18 15:29:26Z" duration="4.290888">
+  <command-line><![CDATA["C:\ProgramData\chocolatey\lib\nunit-console-runner\tools\nunit3-console.exe" DemoTest.dll]]></command-line>
+  <test-suite type="Assembly" id="0-1008" name="DemoTest.dll" fullname="C:\Users\bezvo\Desktop\Demo\DemoTest\bin\Debug\DemoTest.dll" runstate="Runnable" testcasecount="6" result="Failed" site="Child" start-time="2018-02-18 15:29:25Z" end-time="2018-02-18 15:29:26Z" duration="0.739925" total="6" passed="2" failed="3" warnings="0" inconclusive="0" skipped="1" asserts="4">
+    <environment framework-version="3.9.0.0" clr-version="4.0.30319.42000" os-version="Microsoft Windows NT 10.0.16299.0" platform="Win32NT" cwd="C:\Users\bezvo\Desktop\Demo\DemoTest\bin\Debug" machine-name="DESKTOP-6R5RAJK" user="bezvo" user-domain="DESKTOP-6R5RAJK" culture="uk-UA" uiculture="uk-UA" os-architecture="x64" />
+    <settings>
+      <setting name="DisposeRunners" value="True" />
+      <setting name="WorkDirectory" value="C:\Users\bezvo\Desktop\Demo\DemoTest\bin\Debug" />
+      <setting name="ImageRuntimeVersion" value="4.0.30319" />
+      <setting name="ImageTargetFrameworkName" value=".NETFramework,Version=v4.6.1" />
+      <setting name="ImageRequiresX86" value="False" />
+      <setting name="ImageRequiresDefaultAppDomainAssemblyResolver" value="False" />
+      <setting name="NumberOfTestWorkers" value="4" />
+    </settings>
+    <properties>
+      <property name="_PID" value="14088" />
+      <property name="_APPDOMAIN" value="domain-" />
+    </properties>
+    <failure>
+      <message><![CDATA[One or more child tests had errors]]></message>
+    </failure>
+    <test-suite type="TestSuite" id="0-1009" name="DemoTest" fullname="DemoTest" runstate="Runnable" testcasecount="6" result="Failed" site="Child" start-time="2018-02-18 15:29:25Z" end-time="2018-02-18 15:29:26Z" duration="0.634229" total="6" passed="2" failed="3" warnings="0" inconclusive="0" skipped="1" asserts="4">
+      <failure>
+        <message><![CDATA[One or more child tests had errors]]></message>
+      </failure>
+      <test-suite type="TestFixture" id="0-1000" name="MinusTests" fullname="DemoTest.MinusTests" classname="DemoTest.MinusTests" runstate="Runnable" testcasecount="3" result="Failed" site="Child" start-time="2018-02-18 15:29:25Z" end-time="2018-02-18 15:29:26Z" duration="0.585054" total="3" passed="1" failed="1" warnings="0" inconclusive="0" skipped="1" asserts="2">
+        <failure>
+          <message><![CDATA[One or more child tests had errors]]></message>
+        </failure>
+        <test-case id="0-1003" name="IgnoredMinusTest" fullname="DemoTest.MinusTests.IgnoredMinusTest" methodname="IgnoredMinusTest" classname="DemoTest.MinusTests" runstate="Ignored" seed="1860836056" result="Skipped" label="Ignored" start-time="2018-02-18 15:29:25Z" end-time="2018-02-18 15:29:25Z" duration="0.008588" asserts="0">
+          <properties>
+            <property name="_SKIPREASON" value="Ignored test" />
+          </properties>
+          <reason>
+            <message><![CDATA[Ignored test]]></message>
+          </reason>
+        </test-case>
+        <test-case id="0-1002" name="MinusPlusTest" fullname="DemoTest.MinusTests.MinusPlusTest" methodname="MinusPlusTest" classname="DemoTest.MinusTests" runstate="Runnable" seed="800924251" result="Failed" start-time="2018-02-18 15:29:25Z" end-time="2018-02-18 15:29:26Z" duration="0.484118" asserts="1">
+          <failure>
+            <message><![CDATA[  Sum is not equal to 1
+  Expected: 1
+  But was:  0
+]]></message>
+            <stack-trace><![CDATA[   at DemoTest.MinusTests.MinusPlusTest() in C:\Users\bezvo\Desktop\DemoRepo\Demo\DemoTest\MinusTests.cs:line 27
+]]></stack-trace>
+          </failure>
+          <assertions>
+            <assertion result="Failed">
+              <message><![CDATA[  Sum is not equal to 1
+  Expected: 1
+  But was:  0
+]]></message>
+              <stack-trace><![CDATA[   at DemoTest.MinusTests.MinusPlusTest() in C:\Users\bezvo\Desktop\DemoRepo\Demo\DemoTest\MinusTests.cs:line 27
+]]></stack-trace>
+            </assertion>
+          </assertions>
+        </test-case>
+        <test-case id="0-1001" name="PositiveMinusTest" fullname="DemoTest.MinusTests.PositiveMinusTest" methodname="PositiveMinusTest" classname="DemoTest.MinusTests" runstate="Runnable" seed="1286577156" result="Passed" start-time="2018-02-18 15:29:26Z" end-time="2018-02-18 15:29:26Z" duration="0.000417" asserts="1" />
+      </test-suite>
+      <test-suite type="TestFixture" id="0-1004" name="PlusTests" fullname="DemoTest.PlusTests" classname="DemoTest.PlusTests" runstate="Runnable" testcasecount="3" result="Failed" site="Child" start-time="2018-02-18 15:29:26Z" end-time="2018-02-18 15:29:26Z" duration="0.036276" total="3" passed="1" failed="2" warnings="0" inconclusive="0" skipped="0" asserts="2">
+        <failure>
+          <message><![CDATA[One or more child tests had errors]]></message>
+        </failure>
+        <test-case id="0-1007" name="ExceptionPlusTest" fullname="DemoTest.PlusTests.ExceptionPlusTest" methodname="ExceptionPlusTest" classname="DemoTest.PlusTests" runstate="Runnable" seed="711493627" result="Failed" label="Error" start-time="2018-02-18 15:29:26Z" end-time="2018-02-18 15:29:26Z" duration="0.031890" asserts="0">
+          <failure>
+            <message><![CDATA[System.Exception : Test with exception]]></message>
+            <stack-trace><![CDATA[   at DemoTest.PlusTests.ExceptionPlusTest() in C:\Users\bezvo\Desktop\DemoRepo\Demo\DemoTest\PlusTests.cs:line 33]]></stack-trace>
+          </failure>
+        </test-case>
+        <test-case id="0-1006" name="NegativePlusTest" fullname="DemoTest.PlusTests.NegativePlusTest" methodname="NegativePlusTest" classname="DemoTest.PlusTests" runstate="Runnable" seed="968443395" result="Failed" start-time="2018-02-18 15:29:26Z" end-time="2018-02-18 15:29:26Z" duration="0.003162" asserts="1">
+          <failure>
+            <message><![CDATA[  Sum is not equal to 1
+  Expected: 1
+  But was:  2
+]]></message>
+            <stack-trace><![CDATA[   at DemoTest.PlusTests.NegativePlusTest() in C:\Users\bezvo\Desktop\DemoRepo\Demo\DemoTest\PlusTests.cs:line 27
+]]></stack-trace>
+          </failure>
+          <assertions>
+            <assertion result="Failed">
+              <message><![CDATA[  Sum is not equal to 1
+  Expected: 1
+  But was:  2
+]]></message>
+              <stack-trace><![CDATA[   at DemoTest.PlusTests.NegativePlusTest() in C:\Users\bezvo\Desktop\DemoRepo\Demo\DemoTest\PlusTests.cs:line 27
+]]></stack-trace>
+            </assertion>
+          </assertions>
+        </test-case>
+        <test-case id="0-1005" name="PositivePlusTest" fullname="DemoTest.PlusTests.PositivePlusTest" methodname="PositivePlusTest" classname="DemoTest.PlusTests" runstate="Runnable" seed="1764467080" result="Passed" start-time="2018-02-18 15:29:26Z" end-time="2018-02-18 15:29:26Z" duration="0.000573" asserts="1" />
+      </test-suite>
+    </test-suite>
+  </test-suite>
+</test-run>

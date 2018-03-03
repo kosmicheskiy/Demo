@@ -9,3 +9,14 @@ C:\Users\bezvo\Desktop\DemoRepo\Demo\DemoTest\obj\Debug\DemoTest.csprojResolveAs
 C:\Users\bezvo\Desktop\DemoRepo\Demo\DemoTest\obj\Debug\DemoTest.csproj.CoreCompileInputs.cache
 C:\Users\bezvo\Desktop\DemoRepo\Demo\DemoTest\obj\Debug\DemoTest.dll
 C:\Users\bezvo\Desktop\DemoRepo\Demo\DemoTest\obj\Debug\DemoTest.pdb
+C:\Users\bezvo\Desktop\Demo\DemoTest\bin\Debug\DemoTest.dll
+C:\Users\bezvo\Desktop\Demo\DemoTest\bin\Debug\DemoTest.pdb
+C:\Users\bezvo\Desktop\Demo\DemoTest\bin\Debug\Demo.exe
+C:\Users\bezvo\Desktop\Demo\DemoTest\bin\Debug\nunit.framework.dll
+C:\Users\bezvo\Desktop\Demo\DemoTest\bin\Debug\Demo.pdb
+C:\Users\bezvo\Desktop\Demo\DemoTest\bin\Debug\Demo.exe.config
+C:\Users\bezvo\Desktop\Demo\DemoTest\bin\Debug\nunit.framework.xml
+C:\Users\bezvo\Desktop\Demo\DemoTest\obj\Debug\DemoTest.csprojResolveAssemblyReference.cache
+C:\Users\bezvo\Desktop\Demo\DemoTest\obj\Debug\DemoTest.csproj.CoreCompileInputs.cache
+C:\Users\bezvo\Desktop\Demo\DemoTest\obj\Debug\DemoTest.dll
+C:\Users\bezvo\Desktop\Demo\DemoTest\obj\Debug\DemoTest.pdb
